@@ -1,0 +1,514 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
+#   Character.create(name: "Luke", movie: movies.first)
+
+word_list = [
+    {word: 'ABANDON'},
+    {word: 'ABILITY'},
+    {word: 'ABSENCE'},
+    {word: 'ACADEMY'},
+    {word: 'ACCOUNT'},
+    {word: "ACCUSED"},
+    {word: 'ACHIEVE'},
+    {word: 'ACQUIRE'},
+    {word: 'ADDRESS'},
+    {word: "ADVANCE"},
+    {word: 'ADVERSE'},
+    {word: 'ADVISED'},
+    {word: 'ADVISER'},
+    {word: 'AGAINST'},
+    {word: "AIRLINE"},
+    {word: "AIRPORT"},
+    {word: "ALCOHOL"},
+    {word: 'ALLEGED'},
+    {word: 'ALREADY'},
+    {word: 'ANALYST'},
+    {word: 'ANCIENT'},
+    {word: 'ANOTHER'},
+    {word: 'ANXIETY'},
+    {word: 'ANXIOUS'},
+    {word: 'ANYBODY'},
+    {word: 'APPLIED'},
+    {word: 'ARRANGE'},
+    {word: 'ARRIVAL'},
+    {word: 'ARTICLE'},
+    {word: 'ASSAULT'},
+    {word: 'ASSUMED'},
+    {word: 'ASSURED'},
+    {word: 'ATTEMPT'},
+    {word: 'ATTRACT'},
+    {word: 'AUCTION'},
+    {word: 'AVERAGE'},
+    {word: 'Backing'},
+    {word: 'Balance'},
+    {word: 'Banking'},
+    {word: 'Barrier'},
+    {word: 'Battery'},
+    {word: 'Bearing'},
+    {word: 'Beating'},
+    {word: 'Because'},
+    {word: 'Bedroom'},
+    {word: 'Believe'},
+    {word: 'Beneath'},
+    {word: 'Benefit'},
+    {word: 'Besides'},
+    {word: 'Between'},
+    {word: 'Billion'},
+    {word: 'Binding'},
+    {word: 'Brother'},
+    {word: 'Brought'},
+    {word: 'Burning'}
+]
+
+Word.create!(word_list)
+
+# Cabinet
+# Caliber
+# Calling
+# Capable
+# Capital
+# Captain
+# Caption
+# Capture
+# Careful
+# Carrier
+# Caution
+# Ceiling
+# Central
+# Centric
+# Century
+# Certain
+# Chamber
+# Channel
+# Chapter
+# Charity
+# Charlie
+# Charter
+# Checked
+# Chicken
+# Chronic
+# Circuit
+# Classes
+# Classic
+# Climate
+# Closing
+# Closure
+# Clothes
+# Collect
+# College
+# Combine
+# Comfort
+# Command
+# Comment
+# Compact
+# Company
+# Compare
+# Compete
+# Complex
+# Concept
+# Concern
+# Concert
+# Conduct
+# Confirm
+# Connect
+# Consent
+# Consist
+# Contact
+# Contain
+# Content
+# Contest
+# Context
+# Control
+# Convert
+# Correct
+# Council
+# Counsel
+# Counter
+# Country
+# Crucial
+# Crystal
+# Culture
+# Current
+# Cutting
+# Dealing
+# Decided
+# Decline
+# Default
+# Defence
+# Deficit
+# Deliver
+# Density
+# Deposit
+# Desktop
+# Despite
+# Destroy
+# Develop
+# Devoted
+# Diamond
+# Digital
+# Discuss
+# Disease
+# Display
+# Dispute
+# Distant
+# Diverse
+# Divided
+# Drawing
+# Driving
+# Dynamic
+# Eastern
+# Economy
+# Edition
+# Elderly
+# Element
+# Engaged
+# Enhance
+# Essence
+# Evening
+# Evident
+# Exactly
+# Examine
+# Example
+# Excited
+# Exclude
+# Exhibit
+# Expense
+# Explain
+# Explore
+# Express
+# Extreme
+# Factory
+# Faculty
+# Failing
+# Failure
+# Fashion
+# Feature
+# Federal
+# Feeling
+# Fiction
+# Fifteen
+# Filling
+# Finance
+# Finding
+# Fishing
+# Fitness
+# Foreign
+# Forever
+# Formula
+# Fortune
+# Forward
+# Founder
+# Freedom
+# Further
+# Gallery
+# Gateway
+# General
+# Genetic
+# Genuine
+# Gigabit
+# Greater
+# Hanging
+# Heading
+# Healthy
+# Hearing
+# Heavily
+# Helpful
+# Helping
+# Herself
+# Highway
+# Himself
+# History
+# Holding
+# Holiday
+# Housing
+# However
+# Hundred
+# Husband
+# Illegal
+# Illness
+# Imagine
+# Imaging
+# Improve
+# Include
+# Initial
+# Inquiry
+# Insight
+# Install
+# Instant
+# Instead
+# Intense
+# Interim
+# Involve
+# Jointly
+# Journal
+# Journey
+# Justice
+# Justify
+# Keeping
+# Killing
+# Kingdom
+# Kitchen
+# Knowing
+# Landing
+# Largely
+# Lasting
+# Leading
+# Learned
+# Leisure
+# Liberal
+# Liberty
+# Library
+# License
+# Limited
+# Listing
+# Logical
+# Loyalty
+# Machine
+# Manager
+# Married
+# Massive
+# Maximum
+# Meaning
+# Measure
+# Medical
+# Meeting
+# Mention
+# Message
+# Million
+# Mineral
+# Minimal
+# Minimum
+# Missing
+# Mission
+# Mistake
+# Mixture
+# Monitor
+# Monthly
+# Morning
+# Musical
+# Mystery
+# Natural
+# Neither
+# Nervous
+# Network
+# Neutral
+# Notable
+# Nothing
+# Nowhere
+# Nuclear
+# Nursing
+# Obvious
+# Offense
+# Officer
+# Ongoing
+# Opening
+# Operate
+# Opinion
+# Optical
+# Organic
+# Outcome
+# Outdoor
+# Outlook
+# Outside
+# Overall
+# Pacific
+# Package
+# Painted
+# Parking
+# Partial
+# Partner
+# Passage
+# Passing
+# Passion
+# Passive
+# Patient
+# Pattern
+# Payable
+# Payment
+# Penalty
+# Pending
+# Pension
+# Percent
+# Perfect
+# Perform
+# Perhaps
+# Phoenix
+# Picking
+# Picture
+# Pioneer
+# Plastic
+# Pointed
+# Popular
+# Portion
+# Poverty
+# Precise
+# Predict
+# Premier
+# Premium
+# Prepare
+# Present
+# Prevent
+# Primary
+# Printer
+# Privacy
+# Private
+# Problem
+# Proceed
+# Process
+# Produce
+# Product
+# Profile
+# Program
+# Project
+# Promise
+# Promote
+# Protect
+# Protein
+# Protest
+# Provide
+# Publish
+# Purpose
+# Pushing
+# Qualify
+# Quality
+# Quarter
+# Radical
+# Railway
+# Readily
+# Reading
+# Reality
+# Realize
+# Receipt
+# Receive
+# Recover
+# Reflect
+# Regular
+# Related
+# Release
+# Remains
+# Removal
+# Removed
+# Replace
+# Request
+# Require
+# Reserve
+# Resolve
+# Respect
+# Respond
+# Restore
+# Retired
+# Revenue
+# Reverse
+# Rollout
+# Routine
+# Running
+# Satisfy
+# Science
+# Section
+# Segment
+# Serious
+# Service
+# Serving
+# Session
+# Setting
+# Seventh
+# Several
+# Shortly
+# Showing
+# Silence
+# Silicon
+# Similar
+# Sitting
+# Sixteen
+# Skilled
+# Smoking
+# Society
+# Somehow
+# Someone
+# Speaker
+# Special
+# Species
+# Sponsor
+# Station
+# Storage
+# Strange
+# Stretch
+# Student
+# Studied
+# Subject
+# Succeed
+# Success
+# Suggest
+# Summary
+# Support
+# Suppose
+# Supreme
+# Surface
+# Surgery
+# Surplus
+# Survive
+# Suspect
+# Sustain
+# Teacher
+# Telecom
+# Telling
+# Tension
+# Theatre
+# Therapy
+# Thereby
+# Thought
+# Through
+# Tonight
+# Totally
+# Touched
+# Towards
+# Traffic
+# Trouble
+# Turning
+# Typical
+# Uniform
+# Unknown
+# Unusual
+# Upgrade
+# Upscale
+# Utility
+# Variety
+# Various
+# Vehicle
+# Venture
+# Version
+# Veteran
+# Victory
+# Viewing
+# Village
+# Violent
+# Virtual
+# Visible
+# Waiting
+# Walking
+# Wanting
+# Warning
+# Warrant
+# Wearing
+# Weather
+# Webcast
+# Website
+# Wedding
+# Weekend
+# Welcome
+# Welfare
+# Western
+# Whereas
+# Whereby
+# Whether
+# Willing
+# Winning
+# Without
+# Witness
+# Working
+# Writing
+# Written
